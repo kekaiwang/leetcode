@@ -15,7 +15,7 @@
  */
 func deleteNode(root *TreeNode, key int) *TreeNode {
 	if root == nil {
-		return nil
+		return root
 	}
 
 	if root.Val == key {
